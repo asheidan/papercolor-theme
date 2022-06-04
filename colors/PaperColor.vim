@@ -2122,6 +2122,16 @@ fun! s:apply_syntax_highlightings()
   exec 'hi asnTypeInfo' . s:fg_aqua . s:ft_bold
   exec 'hi asnFieldOption' . s:fg_purple
 
+  " Org highlighting
+  " @target https://github.com/axvr/org.vim
+  exec 'hi orgTag' . s:fg_foreground
+  exec 'hi orgHeading1' . s:fg_purple
+  exec 'hi orgHeading2' . s:fg_aqua
+  exec 'hi orgHeading3' . s:fg_orange
+  exec 'hi orgHeading4' . s:fg_green
+  exec 'hi orgHeading5' . s:fg_olive
+  exec 'hi orgHeading6' . s:fg_pink
+
   " }}}
 
   " Plugin: Netrw
